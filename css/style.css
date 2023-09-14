@@ -383,11 +383,7 @@ section.videos .swiper-pagination-bullet {
 section-latest-news {
   padding: 50px;
 }
-section-latest-news .card-text p {
-  margin-top: 10px;
-  color: #000;
-}
-section-latest-news .button {
+section-latest-news .butt {
   background-color: #B80000;
   color: #fff;
   border: 1px solid #B80000;
@@ -396,9 +392,13 @@ section-latest-news .button {
   transition: all 0.5s;
   font-size: 20px;
 }
-section-latest-news .button:hover {
+section-latest-news .butt:hover {
   background-color: #fff;
   color: #B80000;
+}
+section-latest-news .card-text p {
+  margin-top: 10px;
+  color: #000;
 }
 
 footer {
