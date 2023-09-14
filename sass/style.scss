@@ -403,16 +403,16 @@ section {
     &-latest-news{
         padding: 50px;
 
+        .butt{
+            @include button($main-color, $white-color, $main-color);
+            font-size: 20px;
+        }
+
         .card-text{
             p{
                 margin-top: 10px;
                 color: $black-color;
             }
-        }
-
-        .button {
-            @include button($main-color, $white-color, $main-color);
-            font-size: 20px;
         }
     }
 }
